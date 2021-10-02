@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:#000;
+}
+.container{
+    display: flex;
+    width: 5px;
+    color: red;
+}
+.head img{
+    position: relative;
+    width: 11%;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: -15px;
+    margin-bottom: -14px;
+}
+.home-image{
+    background-image: url(assets/money\ heist%.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 90vh;
+    border-radius: 20px;
+    position: relative;
+    filter: brightness();
+}

@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:#000;
+}
+.container .head img{
+    width: 13%;
+}
+.head-image{
+    position: relative;
+    width: 11%;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: -15px;
+    margin-bottom: -14px;
+}
+.home-image{
+    background-image: url(assets/homeimg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 100vh;
+    border-radius: 20px;
+    border-left: -20px;
+    position: relative;
+    filter: brightness();
+}
+.home-image-text{
+    color:aliceblue;
+    position: relative;
+    width: 30%;
+    top: 13em;
+    left: 3em;
+    z-index: 1;
+}
+.money{
+    width: 100%;
+    height: auto;
+}
+.play-button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px ;
+    width: 70px;
+    font-size: 20px;
+    padding-bottom: 9px;
+    padding-right: 4px;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+.play-button img{
+    margin-top: 0px;
+    margin-left: 5px;
+    width: 25px;
+    position: absolute;
+}
+.container .head {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 0 50px;
+    z-index:100000;
+}
+.no{
+    display: flex;
+    overflow-y: hidden;
+}
+.no img{
+    margin:5px;
+    height: -500%;
+    margin-bottom: -20px;
+
+}
+html{
+    overflow:scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width:0px;
+    background: transparent;
+}
+.no h3{
+    width: 50px;
+}
+.orignal .no img{
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.orignal .no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
+.top .no img{
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.top .no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
+.action .no img{
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.action.no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
+.romantic .no img{
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.romantic .no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
+.comedy .no img{
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.comedy .no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
+.horror .no img{
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.horror .no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
+.orignal .no img{
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.orignal .no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
+.bollywood .no img{
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.bollywood .no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
+.tollywood .no img{
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.tollywood .no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
+.hollywood .no img{
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.hollywood .no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(80%);
+}
